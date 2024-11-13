@@ -1,3 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100;300;400;900&family=Pompiere&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.londrinaSketch {
+  font-family: "Londrina Solid", sans-serif;
+}
+.pompiere {
+  font-family: "Pompiere", sans-serif;
+}
+.grad-bg {
+  background: #121fcf;
+  background: linear-gradient(to right, #9845e8 0%, #33d2ff 50%, #dd5789 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
